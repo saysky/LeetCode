@@ -1,4 +1,4 @@
-package p7;
+package Easy.T7;
 
 /**
  * @Title: 7. Reverse Integer

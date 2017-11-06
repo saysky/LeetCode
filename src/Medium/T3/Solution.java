@@ -1,4 +1,4 @@
-package p3;
+package Medium.T3;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * @Title: 3. Longest Substring Without Repeating Characters
  * @Link: https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
- * @Difficulty: Easy Medium Hard
+ * @Difficulty: Medium
  * @Author: 言曌
  * @Date: 2017/11/5
  * @Time: 下午5:20

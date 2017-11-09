@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * @Title:
  * @Link:
- * @Difficulty: Easy Medium Hard
+ * @Difficulty: Easy
  * @Author: 言曌
  * @Date: 2017/11/7
  * @Time: 下午6:34
@@ -17,6 +17,7 @@ public class Solution {
      * 描述：给一个全是括号的字符串，判断括号是否匹配
      * 如输入 ({[]}) 或者 ([]){} 返回 true
      * 如输入 ([)] 则返回 false
+     * 策略：使用栈
      */
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<Character>();
@@ -27,7 +28,7 @@ public class Solution {
                 stack.push('}');
             else if (c == '[')
                 stack.push(']');
-            else if (stack.isEmpty() || stack.pop() != c)
+            else if (stack.isEmpty() || stack.pop() != c)// )]}
                 return false;
         }
         return stack.isEmpty();

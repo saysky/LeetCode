@@ -1,4 +1,4 @@
-package T26;
+package Easy.T26;
 
 /**
  * @Title: 26. Remove Duplicates from Sorted Array

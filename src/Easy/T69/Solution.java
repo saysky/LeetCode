@@ -3,7 +3,7 @@ package Easy.T69;
 /**
  * @Title: 69. Sqrt(x)
  * @Link: https://leetcode.com/problems/sqrtx/description/
- * @Difficulty: Easy Medium Hard
+ * @Difficulty: Easy
  * @Author: 言曌
  * @Date: 2017/11/14
  * @Time: 上午11:33
